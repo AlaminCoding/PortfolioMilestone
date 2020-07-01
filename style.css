@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Fonts
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/*Header*/
+.header-section {
+  display: flex;
+  background-image: url("./img/header-bg.png");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+}
+/*Header-Left*/
+.header-left {
+  width: 50%;
+  height: auto;
+  padding-left: 12%;
+}
+p.hello {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 200px;
+}
+p.name {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  color: crimson;
+  margin-top: 15px;
+}
+p.short-des {
+  font-family: "Poppins", sans-serif;
+  color: #696969;
+  margin: 20px 0px;
+}
+button.hire-btn,
+button.cv-btn {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 10px;
+  padding: 8px 25px;
+  border: 2px solid crimson;
+  background: white;
+  color: crimson;
+  transition: 0.1s;
+  cursor: pointer;
+}
+button.hire-btn:hover,
+button.cv-btn:hover {
+  background: crimson;
+  color: white;
+  transition: 0.7s;
+}
+/*Header Right*/
+.header-right {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+.top-img,
+.bio-img {
+  height: auto;
+  width: 80%;
+  display: block;
+}
+/*Biography*/
+.bio-section {
+  height: auto;
+  width: 100%;
+  background-image: url("./img/biography-bg.png");
+  background-size: cover;
+  display: flex;
+  padding-bottom: 30px;
+}
+/*Bio Left*/
+.bio-left {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+
+/*Bio Right*/
+.bio-right {
+  width: 50%;
+  height: auto;
+  padding: 0px 90px 0px 0px;
+}
+p.bio-title {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 150px;
+}
+p.bio {
+  font-size: 16px;
+  text-align: justify;
+  color: #696969;
+  margin: 29px 0px;
+  font-family: "Poppins", sans-serif;
+}
+button.cv-btn {
+  font-family: "Poppins", sans-serif;
+  margin-top: 0px;
+  font-weight: 600;
+}
+/*Skill Section*/
+.skill-section {
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding: 40px 0px;
+}
+.skill-bg-left {
+  position: absolute;
+  top: 25%;
+  left: 0px;
+  opacity: 0.2;
+}
+.skill-bg-right {
+  position: absolute;
+  top: 40%;
+  right: 0px;
+  opacity: 0.2;
+}
+p.skill-header {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.skill-box {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.skill-div {
+  height: auto;
+  width: 600px;
+  margin-top: 40px;
+  padding: 0px 23px 35px 22px;
+  box-shadow: 2px 2px 10px gray;
+}
+.skill-details {
+  display: flex;
+}
+.skill-img {
+  height: 20px;
+  width: 20px;
+}
+p.skill-name {
+  font-family: "Raleway", sans-serif;
+}
+.skill {
+  margin-top: 30px;
+}
+.skill-measure {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+.skill-bar {
+  height: 30px;
+  width: 92%;
+  border: 1px solid black;
+}
+.skill-inner-bar {
+  height: 100%;
+}
+/*SKILL Values*/
+.html-bar {
+  background: crimson;
+  width: 80%;
+}
+.css-bar {
+  background: #1d8348;
+  width: 70%;
+}
+.js-bar {
+  background: #4a235a;
+  width: 50%;
+}
+.jquery-bar {
+  background: #1b4f72;
+  width: 40%;
+}
+.bs-bar {
+  background: #ff5733;
+  width: 90%;
+}
+.react-bar {
+  background: cyan;
+  width: 30%;
+}
+.node-bar {
+  background: maroon;
+  width: 10%;
+}
+/*--------*/
+.skill-value {
+  height: 30px;
+  width: auto;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: 600;
+}
+/*Latest Work*/
+.work-section {
+  padding: 45px 0px 60px 0px;
+  width: 100%;
+  height: auto;
+  background-image: url("./img/latest-work-bg.png");
+  background-size: cover;
+}
+p.work-header {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  margin: 28px 0px 45px 0px;
+}
+.work-images {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work-img {
+  width: 25%;
+  height: auto;
+  margin: 15px;
+}
+/*Client Section*/
+.client-section {
+  height: auto;
+  width: 100%;
+  background-image: url("./img/footer-bg.png");
+  background-size: cover;
+  padding: 80px 0px;
+}
+p.client-header {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+p.client-name {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+p.client-position {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #4f4b4b;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 8px;
+}
+p.client-speech {
+  width: 450px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.email-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.email-box {
+  background: crimson;
+  width: 600px;
+  height: auto;
+  padding: 50px 0px;
+  border-radius: 12px;
+}
+p.email-header {
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+p.email {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: white;
+  margin-top: 20px;
+}
+/*Copywright Text*/
+p.copywright {
+  font-family: "Poopins", sans-serif;
+  font-size: 13px;
+  color: #696969;
+  text-align: center;
+  padding: 10px 0px;
+}
+@media screen and (max-width: 765px) {
+  .header-section {
+    flex-direction: column;
+  }
+  .header-left {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  p.hello {
+    margin-top: 20px;
+  }
+  .header-right {
+    width: 100%;
+    padding: 40px;
+    margin-top: 40px;
+  }
+  /*Header Responsive Complete*/
+  .bio-section {
+    flex-direction: column-reverse;
+  }
+  .bio-left {
+    width: 100%;
+    padding: 40px;
+    margin-top: 40px;
+  }
+  .bio-right {
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+  }
+  /*Bio Responsive Complete*/
+  .work-images {
+    flex-direction: column;
+  }
+  .work-img {
+    width: 80%;
+  }
+  /*Work Section Complete*/
+  .email-section {
+    padding: 0px 20px;
+  }
+  .email-box {
+    width: 100%;
+  }
+  .skill-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skill-div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  p.hello {
+    margin-top: 50px;
+  }
+  .header-left {
+    padding-left: 20px;
+  }
+  .header-right {
+    padding: 20px;
+  }
+  .bio-right {
+    padding: 0px 20px;
+  }
+  .bio-left {
+    padding: 20px;
+  }
+  p.bio-title {
+    margin-top: 40px;
+  }
+}
